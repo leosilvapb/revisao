@@ -29,10 +29,4 @@ CREATE TABLE
         FOREIGN KEY (video_id) REFERENCES videos(id) ON UPDATE CASCADE ON DELETE CASCADE
     );
 
--- INSERT INTO
-
---     users(id, username, profile_img_url)
-
--- VALUES ('u001', 'fulano', 'teste.jpg');
-
-DROP TABLE likes_dislikes;
+SELECT * FROM users;
